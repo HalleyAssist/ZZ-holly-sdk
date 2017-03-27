@@ -1,0 +1,60 @@
+{
+  "name": "holly-sdk",
+  "version": "1.3.2",
+  "description": "More details coming soon.",
+  "author": "Swinburne Software Innovation Lab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssilab/holly-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssilab/holly-sdk/issues"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && babel lib -d dist",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "prepublish": "npm test && npm run build",
+    "test": "mocha -b --compilers js:babel-register test/index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.14.2",
+    "express": "4.13.3",
+    "got": "6.0.1",
+    "lowdb": "0.11.4",
+    "inflection": "1.8.0",
+    "moment": "2.11.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.4.5",
+    "babel-plugin-transform-class-properties": "6.3.13",
+    "babel-preset-es2015": "6.3.13",
+    "babel-register": "6.4.3",
+    "execa": "0.2.2",
+    "husky": "0.10.2",
+    "mocha": "2.3.4",
+    "rimraf": "2.5.0",
+    "should": "8.1.1",
+    "tempfile": "1.1.1"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "keywords": [
+    "holly",
+    "hub",
+    "smart",
+    "home",
+    "api"
+  ],
+  "babel": {
+    "plugins": [
+      "transform-class-properties"
+    ],
+    "presets": [
+      "es2015"
+    ]
+  }
+}
