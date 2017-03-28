@@ -21,11 +21,11 @@
   },
   "dependencies": {
     "body-parser": "1.14.2",
-    "express": "4.13.3",
-    "got": "6.0.1",
-    "lowdb": "0.11.4",
+    "express": "4.13.4",
+    "got": "6.1.1",
+    "lowdb": "0.16.0",
     "inflection": "1.8.0",
-    "moment": "2.11.1"
+    "moment": "2.11.2"
   },
   "devDependencies": {
     "babel-cli": "6.4.5",
