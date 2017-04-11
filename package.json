@@ -34,9 +34,9 @@
     "babel-register": "6.4.3",
     "execa": "0.2.2",
     "husky": "0.10.2",
-    "mocha": "2.3.4",
-    "rimraf": "2.5.0",
-    "should": "8.1.1",
+    "mocha": "2.4.5",
+    "rimraf": "2.5.1",
+    "should": "8.2.1",
     "tempfile": "1.1.1"
   },
   "engines": {
