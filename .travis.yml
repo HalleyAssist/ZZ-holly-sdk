@@ -3,5 +3,7 @@ node_js:
   - "4"
 deploy:
   provider: npm
+  api_key:
+    secure: dykNqkKma72/kav9qROUq0fWHHZFPDo8dlLaNy2GFy45F8aK0ekCiVIsbQbgRXoyYSl3Y0n93RY3v5VVaAQ5Z0DipgVLkgGReJlC/j8M0rCnvdPxSccTDGwLr32FXbUNLd8IjUuaazjSJF/Ps6tVFmw2ArOEr4XYEefgt2hUcHIt+UyrMRKw2vUZt7+OMW3Nwmao0pd77f3wfXvcHMLLU9gilyZqDpDz/ulmsxOG3ICroj+KqAPgaXl2yC/kEg6q44wtyHrQiELSrBzmP3HU6NC00xCWSCCqr11zWbbX+3iqX5O5CI6yasUuwIAWCXIo8mkg8/WLB6+VQ/d1h7AqLyq23UMSVgGsHosbNtGdQq7GTST4kFZeE+CGgyKoIS6Wj8g0tGXVqp4t20uZeRXNtR9oN1sxTSLf8O9JOvwHe5uo8FXsinK4fIf1QVtNTGIuhauH3aYG6iVOcej7VpDcwDa71wr9S/htmM+/qOBHa8w2Pwybdtd+KzNPmsehmH4aHvKf47rclWAohlwdCTJEyAWD7zG/6SzBRt712ODAEPN0hbjtB2Bm1GpWvqcGQWbyMR+A+zkHJZRcxgya1VVq/YCrthRmU9MCkhaETHitBiq3XuspEfEZz+dGnlnUANR1h32SfjZlXOpSOJfQHbBl/29WlipkzjQsrarzuavIsD0=
   on:
     tags: true
