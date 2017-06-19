@@ -2,14 +2,14 @@
   "name": "holly-sdk",
   "version": "1.3.2",
   "description": "More details coming soon.",
-  "author": "Swinburne Software Innovation Lab",
+  "author": "SP TechSolutions",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ssilab/holly-sdk.git"
+    "url": "https://github.com/HollyAssistTeam/holly_sdk"
   },
   "bugs": {
-    "url": "https://github.com/ssilab/holly-sdk/issues"
+    "url": "https://github.com/HollyAssistTeam/holly_sdk/issues"
   },
   "main": "./dist/index.js",
   "scripts": {
