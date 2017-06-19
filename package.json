@@ -2,7 +2,7 @@
   "name": "holly-sdk",
   "version": "1.3.2",
   "description": "More details coming soon.",
-  "author": "SP TechSolutions",
+  "author": "Swinburne Software Innovation Lab",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,24 +20,24 @@
     "test": "mocha -b --compilers js:babel-register test/index.js"
   },
   "dependencies": {
-    "body-parser": "1.14.2",
-    "express": "4.13.4",
-    "got": "6.1.1",
-    "inflection": "1.8.0",
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "got": "7.0.0",
+    "inflection": "1.12.0",
     "lowdb": "^0.16.2",
-    "moment": "2.11.2"
+    "moment": "2.18.1"
   },
   "devDependencies": {
-    "babel-cli": "6.4.5",
-    "babel-plugin-transform-class-properties": "6.3.13",
-    "babel-preset-es2015": "6.3.13",
-    "babel-register": "6.4.3",
-    "execa": "0.2.2",
-    "husky": "0.10.2",
-    "mocha": "2.4.5",
-    "rimraf": "2.5.1",
-    "should": "8.2.1",
-    "tempfile": "1.1.1"
+    "babel-cli": "6.24.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-register": "6.24.1",
+    "execa": "0.7.0",
+    "husky": "0.13.4",
+    "mocha": "3.4.2",
+    "rimraf": "2.6.1",
+    "should": "11.2.1",
+    "tempfile": "2.0.0"
   },
   "engines": {
     "node": ">= 4"
