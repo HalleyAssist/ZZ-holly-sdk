@@ -1,6 +1,6 @@
 {
   "name": "holly-sdk",
-  "version": "1.3.11",
+  "version": "1.3.13",
   "description": "More details coming soon.",
   "author": "Swinburne Software Innovation Lab",
   "license": "MIT",
@@ -22,7 +22,7 @@
   "dependencies": {
     "body-parser": "1.17.2",
     "express": "4.15.3",
-    "got": "7.0.0",
+    "got": "5.2.0",
     "inflection": "1.12.0",
     "lowdb": "^0.16.2",
     "moment": "2.18.1"
