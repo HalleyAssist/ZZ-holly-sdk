@@ -1,6 +1,10 @@
 {
   "name": "holly-sdk",
+<<<<<<< HEAD
   "version": "1.3.13",
+=======
+  "version": "1.3.12",
+>>>>>>> f4f6397f8db8eecd53bb50a18525b42b6c191866
   "description": "More details coming soon.",
   "author": "Swinburne Software Innovation Lab",
   "license": "MIT",
