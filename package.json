@@ -16,7 +16,7 @@
     "build": "rimraf dist && babel lib -d dist",
     "precommit": "npm test",
     "prepush": "npm test",
-    "prepublish": "npm test && npm run build",
+    "prepublishOnly": "npm test && npm run build",
     "test": "mocha -b --compilers js:babel-register test/index.js"
   },
   "dependencies": {
