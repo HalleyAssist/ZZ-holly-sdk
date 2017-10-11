@@ -1,5 +1,5 @@
 npm-debug.log
 node_modules/
 dist/
-local-holly-db.json
+local-*-db.json
 .vscode/
