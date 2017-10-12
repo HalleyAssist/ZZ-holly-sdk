@@ -40,10 +40,11 @@ describe("holly-sdk", function() {
         done();
       }, 1500);
 
-      execa(path.join(path.dirname(__dirname), "node_modules", ".bin", "babel-node"), [
+      var e =  execa(path.join(path.dirname(__dirname), "node_modules", ".bin", "babel-node"), [
         path.join(__dirname, "app", "main.js"),
         `http://localhost:${hub.address().port}`
-      ]).then(cp => {
+      ]);
+     e.then(cp => {
         // Never gets reached
         cp.disconnect();
       }).catch(err => {
@@ -52,7 +53,9 @@ describe("holly-sdk", function() {
           done(err);
 
         }
-      });
+      })
+      e.stdout.pipe(process.stdout);
+      e.stderr.pipe(process.stdout);
     });
 
     it("should send their port number to the Hub API", done => {
